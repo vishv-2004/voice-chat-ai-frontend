@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
   build: {
-    outDir: path.resolve(__dirname, '../Backend/public'),
+    outDir: "dist",
     emptyOutDir: true,
   },
   plugins: [react(), tailwindcss()],
